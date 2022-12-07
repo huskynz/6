@@ -21,8 +21,6 @@ jobs:
       with:
      # Checkout the repository
         checkout: true # optional, default is true
-    # Tag to override default Logic
-        image_tag: hunzg6:$(date +%s) # optional, default is 
     # Docker org name.
         org_name: huskynz # optional, default is 
     # Name of the docker repository
