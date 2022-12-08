@@ -1,95 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <!--Added some meta data-->
-    <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!--Pulles in nav Css from remote-->
-   <link rel="stylesheet" href="https://serv.huskynz.online/CSS/gen3-nav.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
-        <!--Pulles in favicon and fonts-->
-        <link rel="apple-touch-icon" sizes="180x180"
-        href="https://serv.huskynz.online/logo/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="https://serv.huskynz.online/logo/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="https://serv.huskynz.online/logo/favicon_io/favicon-16x16.png">
-    <!-- Fresh chat window -->
-    <script>
-  function initFreshChat() {
-    window.fcWidget.init({
-      	 token: "e52ae857-a290-4eb3-bdd3-cb1fb2fbf24b",
-	 host: "https://huskynz-help-help.freshchat.com"
-    });
-  }
-  function initialize(i,t){var e;i.getElementById(t)?
-  initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,
-  e.src="https://huskynz-help-help.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
-  function initiateCall(){initialize(document,"Freshchat-js-sdk")}
-  window.addEventListener?window.addEventListener("load",initiateCall,!1):
-  window.attachEvent("load",initiateCall,!1);
-</script> 
-    <!--Added title-->
-        <title>HuskyNZ | Home</title>
- </head>
- <body>
 
- <nav class="navbar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HuskyNZ support - HuskyNZ</title>
+  <link rel="stylesheet"
+    href="https://serv.huskynz.online/lib/bootstrap/dist/css/bootstrap.min.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <link rel="stylesheet"
+    href="https://serv.huskynz.online/css/site.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <link rel="stylesheet" href="/hunzg5_0.styles.css" />
+  <!--Pulles in favicon and fonts-->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.huskynz.online/logo/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.huskynz.online/logo/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.huskynz.online/logo/favicon_io/favicon-16x16.png">
+  <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="huskynz"> </script>
+  <!--Add Firebase-->
+  <script type="module">
 
-     <div class="logo"> <img src="https://serv.huskynz.online/logo/default.png?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" width="5%" height="5%"></img> </div>
+    // Import the functions you need from the SDKs you need
 
-     <ul class="nav-links">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
 
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
 
-       <div class="menu">
-         <li><a href="/">Home</a></li>
-         <li><a href="/about/">About</a></li>
-	 <!-- 
-	 <li><a href="/Contact/">Contact</a></li>
-         <li><a href="/feedback/">Feedback</a></li>
-	 -->
-         <li><a href="/Pages/toc.html">Terms of use</a></li>
-        <li><a href="/Pages/Privacy-Policy.html">Privacy Policy</a></li>
-       </div>
-     </ul>
-   </nav>
+  // TODO: Add SDKs for Firebase products that you want to use
 
-   <div class="Maincontent">
-
-            <h1>Welcome to HuskyNZ</h1>
-
-            <p>
-             Support that makes it easy for normal people to use computers
-            </p>
-            <p>
-              Easy Fast Simple
-            </p>
-   </div>
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
 
+  // Your web app's Firebase configuration
 
- </body>
- <footer class="footer">
-<!-- <a href="https://startups.microsoft.com/"><img src="https://cdn.huskynz.tech/mfs/MS_Startups_Celebration_Badge_Dark.png"  width="30%" height="30%"></a> -->
-            
-  <p>&copy; 2022 - HuskyNZ</p>
-  <p>By use of this site and all of HuskyNZ's sites your agreeing to HuskyNZ Terms of Use and HuskyNZ's
-      Privacy
-      Policy </p>
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+  const firebaseConfig = {
+
+    apiKey: "AIzaSyAA3j3opAoSeiy46FdRL9enQcJ_vmVVm_E",
+
+    authDomain: "hunzg5.firebaseapp.com",
+
+    projectId: "hunzg5",
+
+    storageBucket: "hunzg5.appspot.com",
+
+    messagingSenderId: "758362291359",
+
+    appId: "1:758362291359:web:6dfe6a447ff347648776aa",
+
+    measurementId: "G-6S3VV2LY3M"
+
+  };
+
+
+  // Initialize Firebase
+
+  const app = initializeApp(firebaseConfig);
+
+  const analytics = getAnalytics(app);
+
+</script>
+</head>
+
+<body>
+  <header>
+    <nav b-3tnlbj4u0l
+      class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div b-3tnlbj4u0l class="container-fluid">
+        <a class="navbar-brand" href="/">HuskyNZ</a>
+        <button b-3tnlbj4u0l class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span b-3tnlbj4u0l class="navbar-toggler-icon"></span>
+        </button>
+        <div b-3tnlbj4u0l class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <ul b-3tnlbj4u0l class="navbar-nav flex-grow-1">
+            <!-- LOGO now on the current branch -->
+            <div b-3tnlbj4u0l class="logo"> <img b-3tnlbj4u0l
+                src="https://serv.huskynz.online/logo/default.png"
+                width="50" height="50"></img> </div>
+            <!--Nav main items-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/">Home</a>
+            </li>
+
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/pricing">Pricing</a>
+            </li>
+
+            <!--HuskyNZ Downloads is a work in progress and will be redey soon-->
+            <!-- <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/downloads">HuskyNZ Downloads</a>
+            </li> -->
 
 
 
- </footer>
- <style>
-  .footer {
-      color: #333;
-      font-size: 11px;
-      text-align: center;
-      vertical-align: bottom;
-      margin-top: 120px;
-  }
-  
-  </style>
+
+
+
+
+
+
+
+            <!--Do not add nave below ptou Add nav items above this line-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/Privacy.html">Privacy</a>
+            </li>
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/toc.html">Terms of use</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div b-3tnlbj4u0l class="container">
+    <main b-3tnlbj4u0l role="main" class="pb-3">
+<body>
+
+  <div class="Maincontent">
+    <h1>Welcome to HuskyNZ </h1>
+
+    <p>
+      HuskyNZ provides tech support to anyone.
+    </p>
+    <p>
+      This is the main site, There is also <a href="https://huskynz.online">the HuskyNZ wiki</a>
+    </p>
+  </div>
+
+
+
+</body>
+  </div>
+
+  <footer>
+    </div>
+  </footer>
+  </section>
+  </main>
+  </div>
+
+  <footer b-3tnlbj4u0l class="border-top footer text-muted">
+
+    <div b-3tnlbj4u0l class="container">
+      &copy; 2022 - HuskyNZ - <a href="/Pages/Privacy">Privacy</a>
+    </div>
+  </footer>
+  <script
+    src="https://serv.huskynz.online/lib/jquery/dist/jquery.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script
+    src="https://serv.huskynz.online/lib/bootstrap/dist/js/bootstrap.bundle.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script src="https://serv.huskynz.online/js/site.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+
+</body>
+
 </html>
