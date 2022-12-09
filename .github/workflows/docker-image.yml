@@ -26,7 +26,7 @@ jobs:
     # Name of the docker repository
         repo_name: hunzg6 # optional, default is 
     # Tag default branch with latest tag instead of branch name.
-        use_latest: true # optional, default is true
+        use_latest: false # optional, default is true
     # Docker user
         docker_username: huskynz
     # Docker password
