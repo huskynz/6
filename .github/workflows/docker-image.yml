@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  build:
+  Main:
 
     runs-on: ubuntu-latest
 
