@@ -1,0 +1,36 @@
+{
+  "background_color": "#000000",
+  "description": "HuskyNZ Main Site",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "HuskyNZ",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "HuskyNZ",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://static.husky.nz/logo/favicon_io/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://static.husky.nz/logo/favicon_io/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "https://static.husky.nz/logo/favicon_io/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "https://static.husky.nz/logo/favicon_io/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}
