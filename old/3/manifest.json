@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "www.husky",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "www.husky",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "images/16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "images/180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}
