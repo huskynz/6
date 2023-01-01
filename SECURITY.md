@@ -21,11 +21,6 @@ currently being supported.
 | Gen1   | :x: |
 | Gen0.1   | :x:|
 
-All Current Versions support Extened support more will be added to the list gen2.1 is the start*
-
-* = Extept vers labed EOL becase source is no longer in existesen meaning that support is impossible
-
-
 
 Below are the versions of HuskyNZ's app that
 currently being supported. (Note work is ongoing to replace v2)
