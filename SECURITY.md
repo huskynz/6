@@ -15,11 +15,11 @@ currently being supported.
 
 | Version | EOL |
 | ------- | ------------------ |
-| Gen 3 | :x: |
-| Gen2.1  | :x: |
-| Gen2   | :x: |
-| Gen1   | :x: |
-| Gen0.1   | :x:|
+| Gen 3 | ✖️ |
+| Gen2.1  | ✖️ |
+| Gen2   | ✖️ |
+| Gen1   | ✖️ |
+| Gen0.1   | ✖️|
 
 
 Below are the versions of HuskyNZ's app that
@@ -27,14 +27,14 @@ currently being supported. (Note work is ongoing to replace v2)
 
 | Version | This is a v2 app rebraned and working will be replaced by v3 soon |
 | ------- | ------------------ |
-| HuskyNZ Wiki desktop app v1| :white_check_mark: |
+| HuskyNZ Wiki desktop app v1| ✅|
 
 | Version | EOL           |
 | ------- | ------------------ |
-| Legacey (2.1)| :x: |
-| 2   | :x:                |
-| <2    | :x:                |
-| All Husky-Webdev branded apps   | :x:|
+| Legacey (2.1)| ✖️ |
+| 2   | ✖️                |
+| <2    | ✖️             |
+| All Husky-Webdev branded apps   | ✖️|
 
 ## Supported Beta Versions (url will be relseased soon)
 
@@ -42,11 +42,11 @@ Beta vershions are use at your own risk bugs can be reported and you may get gen
 
 | Version | Geanaral Support        |
 | ------- | ------------------ |
-| Gen7 | :x: |
+| Gen7 | ✖️ |
 
 | Version | Bug support          |
 | ------- | ------------------ |
-| Gen7 | :white_check_mark: |
+| Gen7 | ✅ |
 
 ## Reporting a Vulnerability or Bug
 
