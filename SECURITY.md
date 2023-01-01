@@ -7,11 +7,16 @@ currently being supported.
 
 | Version | Supported (Current) |
 | ------- | ------------------ |
-| Gen 3 | :white_check_mark: |
-| Gen2.1  | :x: |
+| Gen 6 | ✅ |
+
+| Version | Going EOL soon |
+| ------- | ------------------ |
+| Gen 5 | ❗ |
 
 | Version | EOL |
 | ------- | ------------------ |
+| Gen 3 | :x: |
+| Gen2.1  | :x: |
 | Gen2   | :x: |
 | Gen1   | :x: |
 | Gen0.1   | :x:|
@@ -27,10 +32,11 @@ currently being supported. (Note work is ongoing to replace v2)
 
 | Version | This is a v2 app rebraned and working will be replaced by v3 soon |
 | ------- | ------------------ |
-| Legacey (2.1) (Latest relese)| :white_check_mark: |
+| HuskyNZ Wiki desktop app v1| :white_check_mark: |
 
 | Version | EOL           |
 | ------- | ------------------ |
+| Legacey (2.1)| :x: |
 | 2   | :x:                |
 | <2    | :x:                |
 | All Husky-Webdev branded apps   | :x:|
@@ -41,11 +47,11 @@ Beta vershions are use at your own risk bugs can be reported and you may get gen
 
 | Version | Geanaral Support        |
 | ------- | ------------------ |
-| Gen5 | :x: |
+| Gen7 | :x: |
 
 | Version | Bug support          |
 | ------- | ------------------ |
-| Gen5 | :white_check_mark: |
+| Gen7 | :white_check_mark: |
 
 ## Reporting a Vulnerability or Bug
 
