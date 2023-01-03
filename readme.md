@@ -1,2 +1,1 @@
-
-This repo holds huskynz's gen6 based on gen3 for huskynz's docker image
+HuskyNZ's gen6 website useing a styals from g5
