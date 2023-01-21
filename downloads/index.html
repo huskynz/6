@@ -1,116 +1,162 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <!--Main Css pull (from remote)-->
-    <link rel="stylesheet" type="text/css" href="https://serv.husky.nz/CSS/styals.css">
-    <link rel="stylesheet" type="text/css" href="https://serv.husky.nz/CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://serv.husky.nz/CSS/nav.css">
-    <link rel="stylesheet" type="text/css" href="https://serv.husky.nz/CSS/drop.css">
-    <!--Backup Css pull (Due to RC being full of crap)(Will be removed if rc gets off their high horse)-->
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/styals.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/nav.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/drop.css">
-    <!--Backup Css pull (Due to RC being full of crap)(Will be removed if rc gets off there high horse) Above-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HuskyNZ</title>
+  <link rel="stylesheet"
+    href="https://serv.huskynz.online/lib/bootstrap/dist/css/bootstrap.min.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <link rel="stylesheet"
+    href="https://serv.huskynz.online/css/site.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <link rel="stylesheet" href="/hunzg5_0.styles.css" />
+  <!--Pulles in favicon and fonts-->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://serv.huskynz.online/logo/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://serv.huskynz.online/logo/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://serv.huskynz.online/logo/favicon_io/favicon-16x16.png">
+  <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="huskynz"> </script>
+<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "e52ae857-a290-4eb3-bdd3-cb1fb2fbf24b",
+      host: "https://huskynz-help-help.freshchat.com"
+    });
+  }
 
-    <!--Any local CSS pull-->
-    <link rel="stylesheet" type="text/css" href="../Content/Site.css">
-    <link rel="stylesheet" type="text/css" href="../Content/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../Content/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="../Content/bootstrap-theme.min.css">
-    <!-- Any local JS Scripts needed to be pulled-->
-    <script src="../Scripts/jquery-3.1.1.js"></script>
-    <script src="../Scripts/bootstrap.js"></script>
-    <script src="../Scripts/bootstrap.min.js"></script>
-    <script src="../Scripts/jquery-3.4.1.intellisense.js"></script>
-    <script src="../Scripts/jquery-3.4.1.min.js"></script>
-    <script src="../Scripts/jquery-3.4.1.slim.js"></script>
-    <script src="../Scripts/jquery-3.4.1.slim.min.js"></script>
-    <script src="../Scripts/modernizr-2.8.3.js"></script>
+  function initialize(i, t) {
+    var e;
+    i.getElementById(t) ?
+      initFreshChat() : ((e = i.createElement("script")).id = t, e.async = !0,
+        e.src = "https://huskynz-help-help.freshchat.com/js/widget.js", e.onload = initFreshChat, i.head.appendChild(e))
+  }
 
-<!--This is for the title-->
-    <title>HuskyNZ | Downloads</title>
+  function initiateCall() {
+    initialize(document, "Freshchat-js-sdk")
+  }
+  window.addEventListener ? window.addEventListener("load", initiateCall, !1) :
+    window.attachEvent("load", initiateCall, !1);
+</script>
+<style>
+    .button {
+    background-color: #0084ff; /* Blue ish */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+</style>
 </head>
 
 <body>
-    <div class="navbar navbar-inverse ">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               
-               <a href="../index.html" class="navbar-brand">
-                <img src="//cdn.huskynz.me/logo/cover.png" alt="HuskyNZ Logo" style="width:100px;height:100px;">
-              </a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="redirect/help.html">Help Desk</a></li>
-                    <li><a href="search.html">HuskyNZ Search</a></li>
-                    <li><a href="#">Downloads</a></li>
-                    <li><a href="Pages/toc.html">Terms of service</a></li>
-                    <li><a href="Pages/Privacy-Policy.html">Privacy Policy</a></li>
-                </ul>
-            </div>
+  <header>
+    <nav b-3tnlbj4u0l
+      class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div b-3tnlbj4u0l class="container-fluid">
+        <a class="navbar-brand" href="/">HuskyNZ</a>
+        <button b-3tnlbj4u0l class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span b-3tnlbj4u0l class="navbar-toggler-icon"></span>
+        </button>
+        <div b-3tnlbj4u0l class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <ul b-3tnlbj4u0l class="navbar-nav flex-grow-1">
+            <!-- LOGO now on the current branch -->
+            <div b-3tnlbj4u0l class="logo"> <img b-3tnlbj4u0l
+                src="https://serv.huskynz.online/logo/default.png"
+                width="50" height="50"></img> </div>
+            <!--Nav main items-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/">Home</a>
+            </li>
+			 <!--HuskyNZ Download centre (Is WORK IN PROGRESS)-->
+			 <li b-3tnlbj4u0l class="nav-item">
+			     <a class="nav-link text-dark" href="/downloads">HuskyNZ Download Centre</a>
+			 </li>
+			<!--HuskyNZ Wiki-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="https://hnz.li/wiki">HuskyNZ wiki</a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+            <!--Do not add nave below p&tou Add nav items above this line-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/Privacy">Privacy</a>
+            </li>
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/toc">Terms of use</a>
+            </li>
+
+
+          </ul>
+
         </div>
-    </div>
-    <div class="container body-content">
+      </div>
+    </nav>
+  </header>
+  <div b-3tnlbj4u0l class="container">
+    <main b-3tnlbj4u0l role="main" class="pb-3">
+<body>
 
- <div class="row">
-     <div class="col-md-4">
-         <h2>HuskyNZ web browser</h2>
-         <p>
-             &nbsp;</p>
-         <p>
-             <a class="btn btn-default"
-                 href="https://download.cdn.husky.nz/index.php?p=App%2Fv0.2&dl=hunzbrowser.exe">Download
-                 (main)&raquo;</a>
-             <a class="btn btn-default"
-                 href="https://download.cdn.huskynz.me/index.php?p=App%2Fv0.2&dl=hunzbrowser.exe">Download
-                 (backup1)&raquo;</a>
+  <div class="Maincontent">
+    <h1>Welcome to HuskyNZ Downloads</h1>
+    <p>Here you can download alot of HuskyNZ's sofware not all are here yet and this is still a work in progress in terms of beaing redey</p>
+
+   <!-- https://serv.huskynz.online/hunzwikidesktopv1.0.0keys.txt
+    https://dl.husky.nz/app/v1/HuskyNZ%20Wiki%20desktop%20app.exe?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB -->
+<div><a class="button"
+        href="https://dl.husky.nz/app/v1/HuskyNZ%20Wiki%20desktop%20app.exe?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">HuskyNZ
+        wiki desktop app v1</a>
+</div>
+<p>____________________________________________________________________________________________________________________</p>
+<div>
+<a class="button"
+    href="https://serv.husky.nz/hunzwikidesktopv1.0.0keys.txt">HuskyNZ
+    wiki desktop app v1 Keys (Needed for install)</a>
+</div>
+</div>
 
 
-             <a class="btn btn-default" href="https://download.cdn.husky.nz/">All downloads (main)&raquo;</a>
-             <a class="btn btn-default" href="https://download.cdn.huskynz.me/">All downloads (backup1)&raquo;</a>
-
-
-
-
-         </p>
-     </div>
- </div>
-
- <hr />
- <footer>
-     <p>&copy; 2022 - HuskyNZ</p>
-     <p>By use of this site and all of HuskyNZ's sites your agreeing to HuskyNZ Terms of Use and HuskyNZ's Privacy
-         Policy </p>
- </footer>
- </div>
 
 </body>
+  </div>
 
+  <footer>
+    </div>
+  </footer>
+  </section>
+  </main>
+  </div>
 
+  <footer b-3tnlbj4u0l class="border-top footer text-muted">
 
+    <div b-3tnlbj4u0l class="container">
+      HuskyNZ Provides NO SLA at this time. | &copy; 2022 -
+      <script>
+        document.write(new Date().getFullYear())
+      </script> | HuskyNZ | <a href="/Pages/Privacy">Privacy</a> | <a href="/Pages/toc/index.html">TERMS OF USE</a> | <a
+        href="https://hnz.li/lui">HuskyNZ URLS</a> | <a href="https://hnz.li/qsz">HuskyNZ Status</a>
+    </div>
+  </footer>
+  <script
+    src="https://serv.huskynz.online/lib/jquery/dist/jquery.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script
+    src="https://serv.huskynz.online/lib/bootstrap/dist/js/bootstrap.bundle.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script src="https://serv.huskynz.online/js/site.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
 
 </html>
