@@ -17,20 +17,18 @@ jobs:
   # You may pin to the exact commit or the version.
   # uses: TCPShield/gp-docker-action@65486288374aeae8705fc543405dc4d23de6060b
       uses: TCPShield/gp-docker-action@1.1.13
-       with:
+      with:
     # Github username to push Docker image from
-    github-username: husky-devel  
+        github-username: husky-devel  
     # GitHub token to push Docker image to GitHub Container Registry
-    github-token: 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
+        github-token: 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
     # Docker Image tag
-    image-tag: # optional, default is latest
+        image-tag: latest # optional, default is latest
     # Extract git-tag from repository
-    extract-git-tag: # optional, default is false
+        extract-git-tag: false# optional, default is false
     # Dockerfile name
-    dockerfile: # optional, default is Dockerfile
+        dockerfile: Dockerfile # optional, default is Dockerfile
     # Path to build context
-    build-context: # optional, default is .
+        build-context: . # optional, default is .
     # Pull the image before buiding it
-    pull-image: # optional, default is false
-    # Any additional docker build arguments as a string
-    custom-args: # optional, default is 
+        pull-image: false # optional, default is false
