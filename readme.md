@@ -20,7 +20,7 @@ Contributions are welcome! Just open a issue or pull requst on this repo or emai
 
 ## Feedback
 
-If you have any feedback, please fill out the form [this form](https://forms.husky.nz/t/qaRREBpd7xus?sentfrom=gen6githubrepo&internal=false&sentto=n/a&endbuttonurl=https://github.com/huskynz/6&endbuttonurltxt=Back to the HuskyNZ Github) (The qury string is very very importnt Plase dont remove it)
+If you have any feedback, please fill out the form this form https://forms.husky.nz/t/qaRREBpd7xus?sentfrom=gen6githubrepo&internal=false&sentto=n/a&endbuttonurl=https://github.com/huskynz/6&endbuttonurltxt=Back (The qury string is very very importnt Plase dont remove it)
 
 ## Demo
 
