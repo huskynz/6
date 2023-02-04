@@ -8,13 +8,13 @@ This is HuskyNZ's 6th site and is planned to grow at the moment its a testing gr
 
 ## Documentation
 
-[HuskyNZ Wiki](https://huskynz.online)
+[HuskyNZ Wiki](https://hnz.li/wiki)
 
 
 
 ## Contributing
 
-Contributions are welcome! Just open a issue or pull requst on this repo or email support@husky.nz
+Contributions are welcome! Just open a issue or pull requst on this repo or email github+6@husky.nz
 
 
 
