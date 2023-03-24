@@ -1,1 +1,1 @@
-# THIS GITHUB REPO HAS BEEN MOVED TO [HUSKYNZ'S GITLAB](https://hnz.li/6reponew)
+This readme needs to be redone
