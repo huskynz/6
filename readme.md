@@ -1,1 +1,6 @@
-This is gen6 of HuskyNZ's website there a new gen7 website deoloyed now this is a arcive
+THIS REPO IS OUT OF ARCHIVE
+
+
+THERE IS GOING TO BE SOME WORK DONE
+
+BECAUSE I WANT TO SEE WHAT I CAN DO
